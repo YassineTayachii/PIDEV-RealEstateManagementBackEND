@@ -34,7 +34,8 @@ public class AnnonceController {
     Annonce retrieveAnnonce(@PathVariable Integer idAnnonce) {
         return iAnnonceService.retrieveAnnonce(idAnnonce);
     }
-
+//test
+    //test
     @PostMapping("/ArchiverAnnonce/{idAnnonce}")
     void deleteAnnonce(@PathVariable Integer idAnnonce) {
         iAnnonceService.archiveAnnonce(idAnnonce);
