@@ -14,7 +14,7 @@ public class BienImmobiliereController {
 @Autowired
 
     IBienImmobiliereService iBienImmobiliereService;
-
+//Api
     @GetMapping("/afficherBienImmobiliere")
     List<BienImmobiliere> retrieveAllBienImmobilieres() {
         return iBienImmobiliereService.retrieveAllBienImmobilieres();
